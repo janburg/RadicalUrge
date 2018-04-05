@@ -1,0 +1,55 @@
+.glyphicon glyphicon-camera  {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	 z-index: 100;
+    font-size: 200%;
+    color: #bddadb;
+}
+
+.hover i::before {
+    display: none;
+}
+
+.hover:hover i::before {
+    display: block;
+}
+.hoverinfo {
+   position: relative;
+    bottom: 0;
+    right: -7px;
+    z-index: 3;
+  font-size: 28px;
+  color: #653535;
+  cursor: pointer;
+}
+
+.hoverinfo p {
+  display: none;
+  color: #000000;
+}
+.hoverinfo:hover p {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+}
+
+
+<body>
+<div class="home-img">
+
+<img class="aligncenter wp-image-288 size-full" src="https://radicalurge.com/wp-content/uploads/2018/03/Brigid-with-jewlery-1.jpg" alt="model wearing Radical Urge logo t-shirt" width="100%" />
+
+<div>
+<i class="glyphicon glyphicon-camera"></i>
+<span class="hoverinfo">Brigidlynn Cappelletti / Metalsmith</span>
+
+
+</div>
+</div>
+</body>
